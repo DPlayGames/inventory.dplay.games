@@ -2,35 +2,155 @@ html, body {
 	background-color: #151515;
 }
 
-#wrapper {
-	margin: auto;
-	max-width: 600px;
-	margin-top: 50px;
-	padding: 30px;
-	font-size: 16px;
-	background-color: #1e1e1e;
-}
-
-h1 {
-	font-size: 30px;
-	margin-bottom: 30px;
-}
-
-img {
-	width: 194px;
-}
-
-p {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	color: #999;
-}
-
-a {
-	color: #ccc;
-	text-decoration: underline;
+body {
+	padding: 50px 0;
 }
 
 .clear {
 	clear: both;
+}
+
+/* 모바일 */
+@media (max-width: 1000px) {
+	
+	#wrapper {}
+	
+	h1 {
+		font-size: 35px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+	
+	.panel {
+		padding: 20px;
+	}
+	
+	.panel p {
+		margin-top: 20px;
+	}
+	
+	#photo {
+		width: 194px;
+		float: none;
+	}
+	
+	#description {
+		margin-top: 30px;
+		margin-left: 0px;
+		width: auto;
+		float: none;
+	}
+	
+	#metamask {
+		margin-left: 0px;
+		width: auto;
+		float: none;
+	}
+	
+	#menu {
+		margin-top: 20px;
+		margin-left: 0px;
+		float: none;
+	}
+}
+
+/* PC */
+@media (min-width: 1001px) {
+	
+	#wrapper {
+		width: 950px;
+		margin: auto;
+	}
+	
+	h1 {
+		font-size: 50px;
+	}
+	
+	h2 {
+		font-size: 30px;
+	}
+	
+	.panel {
+		padding: 50px;
+	}
+	
+	.panel p {
+		margin-top: 30px;
+	}
+	
+	#photo {
+		width: 194px;
+		float: left;
+	}
+	
+	#description {
+		margin-top: 0px;
+		margin-left: 30px;
+		width: 620px;
+		float: left;
+	}
+	
+	#metamask {
+		margin-left: 30px;
+		width: 620px;
+		float: left;
+	}
+	
+	#menu {
+		margin-top: 20px;
+		margin-left: 30px;
+		float: left;
+	}
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+i {
+	color: #980100;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+ul {
+	color: #999;
+}
+
+.panel {
+	margin-top: 50px;
+	background-color: #1e1e1e;
+}
+
+.panel p {
+	color: #999;
+	font-size: 16px;
+}
+
+.panel .sign {
+	margin-top: 20px;
+	text-align: right;
+	font-style: italic;
+	color: #999;
+}
+
+#menu li a {
+	font-size: 16px;
+	text-decoration: underline;
+	color: #ccc;
+}
+
+#codeislaw {
+	margin-top: 40px;
+	padding: 20px;
+	color: #980100;
+	font-style: italic;
 }
