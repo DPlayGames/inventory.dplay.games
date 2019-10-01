@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link href="/UPPERCASE-BOOT/BASE_STYLE.css" rel="stylesheet" />
+		<link href="/fontawesome/css/all.css" rel="stylesheet" />
+		<link href="/index.css" rel="stylesheet" />
+		<title>下载DPlay保管箱</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>下载DPlay保管箱</h1>
+			<img src="/dplayinventory.png">
+			<p>
+				目前正在等待Google审核DPlay保管箱，请先使用MetaMask。
+			</p>
+			<a href="https://metamask.io">下载MetaMask</a>
+		</div>
+		<script src="/UPPERCASE-CORE/BROWSER.js"></script>
+		<script>
+		RUN(() => {
+			
+			FOR_BOX((box) => {
+				if (box.OVERRIDE !== undefined) {
+					box.OVERRIDE();
+				}
+			});
+			
+			INIT_OBJECTS();
+			
+			FOR_BOX((box) => {
+				if (box.MAIN !== undefined) {
+					box.MAIN();
+				}
+			});
+			
+			global.pageLang = 'zh-CN';
+		});
+		</script>
+		<script src="/index.js"></script>
+	</body>
+</html>

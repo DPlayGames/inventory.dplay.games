@@ -1,0 +1,36 @@
+html, body {
+	background-color: #151515;
+}
+
+#wrapper {
+	margin: auto;
+	max-width: 600px;
+	margin-top: 50px;
+	padding: 30px;
+	font-size: 16px;
+	background-color: #1e1e1e;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+img {
+	width: 194px;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}

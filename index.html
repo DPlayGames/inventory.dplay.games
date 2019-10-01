@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link href="/UPPERCASE-BOOT/BASE_STYLE.css" rel="stylesheet" />
+		<link href="/fontawesome/css/all.css" rel="stylesheet" />
+		<link href="/index.css" rel="stylesheet" />
+		<title>Download DPlay Inventory</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Download DPlay Inventory</h1>
+			<img src="/dplayinventory.png">
+			<p>
+				Waiting for Google to review DPlay Inventory, please use MetaMask first.
+			</p>
+			<a href="https://metamask.io">Download MetaMask</a>
+		</div>
+		<script src="/UPPERCASE-CORE/BROWSER.js"></script>
+		<script>
+		RUN(() => {
+			
+			FOR_BOX((box) => {
+				if (box.OVERRIDE !== undefined) {
+					box.OVERRIDE();
+				}
+			});
+			
+			INIT_OBJECTS();
+			
+			FOR_BOX((box) => {
+				if (box.MAIN !== undefined) {
+					box.MAIN();
+				}
+			});
+			
+			global.pageLang = 'en';
+		});
+		</script>
+		<script src="/index.js"></script>
+	</body>
+</html>
