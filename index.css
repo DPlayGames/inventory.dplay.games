@@ -43,12 +43,6 @@ body {
 		float: none;
 	}
 	
-	#metamask {
-		margin-left: 0px;
-		width: auto;
-		float: none;
-	}
-	
 	#menu {
 		margin-top: 20px;
 		margin-left: 0px;
@@ -87,12 +81,6 @@ body {
 	
 	#description {
 		margin-top: 0px;
-		margin-left: 30px;
-		width: 620px;
-		float: left;
-	}
-	
-	#metamask {
 		margin-left: 30px;
 		width: 620px;
 		float: left;
